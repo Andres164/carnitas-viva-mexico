@@ -1,0 +1,11 @@
+D:\Repositorios\carnitas-viva-mexico\CarnitasVivaMexico\CarnitasVivaMexico\bin\Debug\CarnitasVivaMexico.exe.config
+D:\Repositorios\carnitas-viva-mexico\CarnitasVivaMexico\CarnitasVivaMexico\bin\Debug\CarnitasVivaMexico.exe
+D:\Repositorios\carnitas-viva-mexico\CarnitasVivaMexico\CarnitasVivaMexico\bin\Debug\CarnitasVivaMexico.pdb
+D:\Repositorios\carnitas-viva-mexico\CarnitasVivaMexico\CarnitasVivaMexico\obj\Debug\CarnitasVivaMexico.csproj.AssemblyReference.cache
+D:\Repositorios\carnitas-viva-mexico\CarnitasVivaMexico\CarnitasVivaMexico\obj\Debug\CarnitasVivaMexico.csproj.SuggestedBindingRedirects.cache
+D:\Repositorios\carnitas-viva-mexico\CarnitasVivaMexico\CarnitasVivaMexico\obj\Debug\CarnitasVivaMexico.Autenticacion.resources
+D:\Repositorios\carnitas-viva-mexico\CarnitasVivaMexico\CarnitasVivaMexico\obj\Debug\CarnitasVivaMexico.Properties.Resources.resources
+D:\Repositorios\carnitas-viva-mexico\CarnitasVivaMexico\CarnitasVivaMexico\obj\Debug\CarnitasVivaMexico.csproj.GenerateResource.cache
+D:\Repositorios\carnitas-viva-mexico\CarnitasVivaMexico\CarnitasVivaMexico\obj\Debug\CarnitasVivaMexico.csproj.CoreCompileInputs.cache
+D:\Repositorios\carnitas-viva-mexico\CarnitasVivaMexico\CarnitasVivaMexico\obj\Debug\CarnitasVivaMexico.exe
+D:\Repositorios\carnitas-viva-mexico\CarnitasVivaMexico\CarnitasVivaMexico\obj\Debug\CarnitasVivaMexico.pdb
