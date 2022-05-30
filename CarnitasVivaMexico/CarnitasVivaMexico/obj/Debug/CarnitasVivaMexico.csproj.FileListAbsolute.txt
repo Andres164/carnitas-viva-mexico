@@ -54,3 +54,8 @@ C:\Users\Ángel\Desktop\Repositorio\carnitas-viva-mexico\CarnitasVivaMexico\Carn
 C:\Users\Ángel\Desktop\Repositorio\carnitas-viva-mexico\CarnitasVivaMexico\CarnitasVivaMexico\obj\Debug\CarnitasVivaMexico.csproj.CopyComplete
 C:\Users\Ángel\Desktop\Repositorio\carnitas-viva-mexico\CarnitasVivaMexico\CarnitasVivaMexico\obj\Debug\CarnitasVivaMexico.exe
 C:\Users\Ángel\Desktop\Repositorio\carnitas-viva-mexico\CarnitasVivaMexico\CarnitasVivaMexico\obj\Debug\CarnitasVivaMexico.pdb
+D:\Repositorios\carnitas-viva-mexico\CarnitasVivaMexico\CarnitasVivaMexico\obj\Debug\CarnitasVivaMexico.Capa_de_Interfaz.Insumos.resources
+D:\Repositorios\carnitas-viva-mexico\CarnitasVivaMexico\CarnitasVivaMexico\obj\Debug\CarnitasVivaMexico.Capa_de_Interfaz.MenuPrincipal.resources
+D:\Repositorios\carnitas-viva-mexico\CarnitasVivaMexico\CarnitasVivaMexico\obj\Debug\CarnitasVivaMexico.Capa_de_Interfaz.Productos.resources
+D:\Repositorios\carnitas-viva-mexico\CarnitasVivaMexico\CarnitasVivaMexico\obj\Debug\CarnitasVivaMexico.Capa_de_Interfaz.Proveedores.resources
+D:\Repositorios\carnitas-viva-mexico\CarnitasVivaMexico\CarnitasVivaMexico\obj\Debug\CarnitasVivaMexico.Capa_de_Interfaz.Ventas.resources

@@ -16,5 +16,11 @@ namespace CarnitasVivaMexico
         {
             InitializeComponent();
         }
+        
+        private void btnIniciarSesion_Click(object sender, EventArgs e)
+        {
+            var connectionString = "Host=localhost;Username=postgres;Password=admin;Database=CarnitasVivaMexico";
+
+        }
     }
 }
