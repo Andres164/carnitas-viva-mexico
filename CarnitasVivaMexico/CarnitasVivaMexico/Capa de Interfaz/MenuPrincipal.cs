@@ -61,5 +61,10 @@ namespace CarnitasVivaMexico.Capa_de_Interfaz
         {
 
         }
+
+        private void MenuPrincipal_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }

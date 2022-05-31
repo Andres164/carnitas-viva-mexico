@@ -16,8 +16,7 @@ namespace CarnitasVivaMexico
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Capa_de_Interfaz.MenuPrincipal());
-
+            Application.Run(new Autenticacion());
         }
     }
 }
