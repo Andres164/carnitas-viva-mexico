@@ -17,12 +17,47 @@ namespace CarnitasVivaMexico.Capa_de_Interfaz
             InitializeComponent();
         }
 
-        private void MenuPrincipal_Load(object sender, EventArgs e)
+
+        private void BTNproveedores(object sender, EventArgs e)
+        {
+            Form MenuPrincipal = new Proveedores();
+            MenuPrincipal.Show();
+        }
+
+        private void BtnVENTAS(object sender, EventArgs e)
+        {
+            Form MenuPrincipal = new Ventas();
+            MenuPrincipal.Show();
+        }
+
+        private void BtnPRODUCTOS(object sender, EventArgs e)
+        {
+            Form MenuPrincipal = new Productos();
+            MenuPrincipal.Show();
+        }
+
+        private void BtnINSUMOS(object sender, EventArgs e)
+        {
+            Form MenuPrincipal = new Insumos();
+            MenuPrincipal.Show();
+        }
+
+        private void label5_Click(object sender, EventArgs e)
         {
 
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void pictureBox3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void MenuPrincipal_Load(object sender, EventArgs e)
         {
 
         }

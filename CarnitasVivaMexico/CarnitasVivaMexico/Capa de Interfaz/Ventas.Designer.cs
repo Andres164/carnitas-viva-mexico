@@ -36,6 +36,7 @@
             this.CantidadDeProducto = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.UnidadDeMedida = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Id_Venta = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.label1 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -43,11 +44,12 @@
             // 
             this.button1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button1.BackgroundImage")));
             this.button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button1.Location = new System.Drawing.Point(-2, -1);
+            this.button1.Location = new System.Drawing.Point(12, 12);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(45, 30);
+            this.button1.Size = new System.Drawing.Size(50, 44);
             this.button1.TabIndex = 14;
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.BtnBackVentas);
             // 
             // dataGridView1
             // 
@@ -58,7 +60,7 @@
             this.CantidadDeProducto,
             this.UnidadDeMedida,
             this.Id_Venta});
-            this.dataGridView1.Location = new System.Drawing.Point(111, 55);
+            this.dataGridView1.Location = new System.Drawing.Point(155, 55);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.Size = new System.Drawing.Size(538, 383);
             this.dataGridView1.TabIndex = 15;
@@ -88,17 +90,31 @@
             this.Id_Venta.HeaderText = "Id_Venta";
             this.Id_Venta.Name = "Id_Venta";
             // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(348, 19);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(173, 25);
+            this.label1.TabIndex = 16;
+            this.label1.Text = "Lista de ventas";
+            this.label1.Click += new System.EventHandler(this.label1_Click);
+            // 
             // Ventas
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.button1);
             this.Name = "Ventas";
             this.Text = "Ventas";
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -111,5 +127,6 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn CantidadDeProducto;
         private System.Windows.Forms.DataGridViewTextBoxColumn UnidadDeMedida;
         private System.Windows.Forms.DataGridViewTextBoxColumn Id_Venta;
+        private System.Windows.Forms.Label label1;
     }
 }

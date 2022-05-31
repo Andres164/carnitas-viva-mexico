@@ -22,14 +22,14 @@ namespace CarnitasVivaMexico.Capa_de_Interfaz
 
         }
 
-        private void label1_Click(object sender, EventArgs e)
+        private void label7_Click(object sender, EventArgs e)
         {
 
         }
 
-        private void label7_Click(object sender, EventArgs e)
+        private void BtnBackProductos(object sender, EventArgs e)
         {
-
+            this.Dispose();
         }
     }
 }

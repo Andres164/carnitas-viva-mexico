@@ -37,18 +37,22 @@
             this.Stock = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.PrecioDeCompra = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.UnidadDeMedida = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.label1 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
             // button1
             // 
+            this.button1.BackColor = System.Drawing.SystemColors.MenuBar;
             this.button1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button1.BackgroundImage")));
             this.button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button1.Location = new System.Drawing.Point(0, -3);
+            this.button1.ForeColor = System.Drawing.Color.Chocolate;
+            this.button1.Location = new System.Drawing.Point(12, 12);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(45, 30);
+            this.button1.Size = new System.Drawing.Size(54, 44);
             this.button1.TabIndex = 13;
-            this.button1.UseVisualStyleBackColor = true;
+            this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.BtnBackInsumos);
             // 
             // dataGridView1
             // 
@@ -62,7 +66,7 @@
             this.UnidadDeMedida});
             this.dataGridView1.Location = new System.Drawing.Point(59, 78);
             this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(639, 344);
+            this.dataGridView1.Size = new System.Drawing.Size(641, 344);
             this.dataGridView1.TabIndex = 14;
             // 
             // Id_Insumo
@@ -95,17 +99,32 @@
             this.UnidadDeMedida.HeaderText = "UnidadDeMedida";
             this.UnidadDeMedida.Name = "UnidadDeMedida";
             // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Lucida Sans", 15.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(289, 33);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(237, 23);
+            this.label1.TabIndex = 15;
+            this.label1.Text = "Lista de los insumos";
+            this.label1.Click += new System.EventHandler(this.label1_Click);
+            // 
             // Insumos
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.button1);
             this.Name = "Insumos";
             this.Text = "Insumos";
+            this.Load += new System.EventHandler(this.Insumos_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -118,5 +137,6 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn Stock;
         private System.Windows.Forms.DataGridViewTextBoxColumn PrecioDeCompra;
         private System.Windows.Forms.DataGridViewTextBoxColumn UnidadDeMedida;
+        private System.Windows.Forms.Label label1;
     }
 }

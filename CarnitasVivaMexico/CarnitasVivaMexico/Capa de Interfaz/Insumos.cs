@@ -16,5 +16,20 @@ namespace CarnitasVivaMexico.Capa_de_Interfaz
         {
             InitializeComponent();
         }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void BtnBackInsumos(object sender, EventArgs e)
+        {
+            this.Dispose();
+        }
+
+        private void Insumos_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -21,5 +21,10 @@ namespace CarnitasVivaMexico.Capa_de_Interfaz
         {
 
         }
+
+        private void BtnBackProveedores(object sender, EventArgs e)
+        {
+            this.Dispose();
+        }
     }
 }
