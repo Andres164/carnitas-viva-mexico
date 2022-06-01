@@ -46,7 +46,6 @@ namespace CarnitasVivaMexico
             {
                 MessageBox.Show(exept.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
-            MessageBox.Show("Salio del TRY", "Info", MessageBoxButtons.OK);
         }
 
         private void Autenticacion_Load(object sender, EventArgs e)
